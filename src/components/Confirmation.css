@@ -1,0 +1,82 @@
+.confirmation-section {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.confirmation-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background-color: var(--primary-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmation-icon svg {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.confirmation-card h2 {
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+}
+
+.confirmation-message {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.confirmation-details {
+  background-color: var(--highlight-light);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.confirmation-details h3 {
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+}
+
+.confirmation-details ul {
+  list-style: none;
+}
+
+.confirmation-details li {
+  margin-bottom: 0.5rem;
+}
+
+.confirmation-details strong {
+  color: var(--primary-green);
+}
+
+.confirmation-note {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .confirmation-card {
+    padding: 1.5rem;
+  }
+  
+  .confirmation-card h2 {
+    font-size: 2rem;
+  }
+}
